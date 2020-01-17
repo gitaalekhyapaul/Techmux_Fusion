@@ -14,5 +14,5 @@ void loop() {
   String outputD = String(map(inputD,0,1023,0,100));
   String totalOutput="A"+outputA+"B"+outputB+"C"+outputC+"D"+outputD;
   Serial.println(totalOutput);
-  delay(250);
+  delay(200);
 }
